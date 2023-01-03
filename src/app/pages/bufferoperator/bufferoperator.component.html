@@ -1,0 +1,9 @@
+<div>
+  <button (click)="startInterval()">Start interval</button>
+</div>
+<div>
+  <button id="showButton">Show Data Now</button>
+</div>
+<div *ngIf="intervalData.length">
+  <div *ngFor="let number of intervalData"></div>
+</div>
