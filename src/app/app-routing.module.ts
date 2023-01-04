@@ -6,8 +6,13 @@ import { BufferTimeOperatorComponent } from './pages/buffer-time-operator/buffer
 import { BufferToogleOperatorComponent } from './pages/buffer-toogle-operator/buffer-toogle-operator.component';
 import { BufferWhenOperatorComponent } from './pages/buffer-when-operator/buffer-when-operator.component';
 import { BufferoperatorComponent } from './pages/bufferoperator/bufferoperator.component';
+import { SkipLastOperatorComponent } from './pages/skip-last-operator/skip-last-operator.component';
+import { SkipOperatorComponent } from './pages/skip-operator/skip-operator.component';
+import { SkipUntilOperatorComponent } from './pages/skip-until-operator/skip-until-operator.component';
 import { TakeLastOperatorComponent } from './pages/take-last-operator/take-last-operator.component';
 import { TakeOperatorComponent } from './pages/take-operator/take-operator.component';
+import { TakeUntilOperatorComponent } from './pages/take-until-operator/take-until-operator.component';
+import { TakeWhileOperatorComponent } from './pages/take-while-operator/take-while-operator.component';
 
 const routes: Routes = [
   {
@@ -46,6 +51,26 @@ const routes: Routes = [
       {
         path: "takelast",
         component: TakeLastOperatorComponent
+      },
+      {
+        path: "takeuntil",
+        component: TakeUntilOperatorComponent
+      },
+      {
+        path: "takewhile",
+        component: TakeWhileOperatorComponent
+      },
+      {
+        path: "skip",
+        component: SkipOperatorComponent
+      },
+      {
+        path: "skiplast",
+        component: SkipLastOperatorComponent
+      },
+      {
+        path: "skipuntil",
+        component: SkipUntilOperatorComponent
       }
     ]
   }

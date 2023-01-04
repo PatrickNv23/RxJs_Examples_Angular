@@ -13,6 +13,11 @@ import { BufferToogleOperatorComponent } from './pages/buffer-toogle-operator/bu
 import { BufferWhenOperatorComponent } from './pages/buffer-when-operator/buffer-when-operator.component';
 import { TakeOperatorComponent } from './pages/take-operator/take-operator.component';
 import { TakeLastOperatorComponent } from './pages/take-last-operator/take-last-operator.component';
+import { TakeUntilOperatorComponent } from './pages/take-until-operator/take-until-operator.component';
+import { TakeWhileOperatorComponent } from './pages/take-while-operator/take-while-operator.component';
+import { SkipOperatorComponent } from './pages/skip-operator/skip-operator.component';
+import { SkipLastOperatorComponent } from './pages/skip-last-operator/skip-last-operator.component';
+import { SkipUntilOperatorComponent } from './pages/skip-until-operator/skip-until-operator.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +31,12 @@ import { TakeLastOperatorComponent } from './pages/take-last-operator/take-last-
     BufferToogleOperatorComponent,
     BufferWhenOperatorComponent,
     TakeOperatorComponent,
-    TakeLastOperatorComponent
+    TakeLastOperatorComponent,
+    TakeUntilOperatorComponent,
+    TakeWhileOperatorComponent,
+    SkipOperatorComponent,
+    SkipLastOperatorComponent,
+    SkipUntilOperatorComponent
   ],
   imports: [
     BrowserModule,
