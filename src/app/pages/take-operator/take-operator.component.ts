@@ -7,6 +7,7 @@ import { interval, take } from 'rxjs';
   styleUrls: ['./take-operator.component.css']
 })
 export class TakeOperatorComponent implements OnInit {
+
   ngOnInit(): void {
     interval(500)
       .pipe(

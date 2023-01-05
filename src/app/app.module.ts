@@ -18,6 +18,15 @@ import { TakeWhileOperatorComponent } from './pages/take-while-operator/take-whi
 import { SkipOperatorComponent } from './pages/skip-operator/skip-operator.component';
 import { SkipLastOperatorComponent } from './pages/skip-last-operator/skip-last-operator.component';
 import { SkipUntilOperatorComponent } from './pages/skip-until-operator/skip-until-operator.component';
+import { SkipWhileOperatorComponent } from './pages/skip-while-operator/skip-while-operator.component';
+import { DistinctoperatorComponent } from './pages/distinctoperator/distinctoperator.component';
+import { DistinctUntilChangedOperatorComponent } from './pages/distinct-until-changed-operator/distinct-until-changed-operator.component';
+import { DistinctUntilKeyChangedOperatorComponent } from './pages/distinct-until-key-changed-operator/distinct-until-key-changed-operator.component';
+import { FilterOperatorComponent } from './pages/filter-operator/filter-operator.component';
+import { SampleOperatorComponent } from './pages/sample-operator/sample-operator.component';
+import { AuditOperatorComponent } from './pages/audit-operator/audit-operator.component';
+import { DebounceOperatorComponent } from './pages/debounce-operator/debounce-operator.component';
+import { MapOperatorComponent } from './pages/map-operator/map-operator.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +45,16 @@ import { SkipUntilOperatorComponent } from './pages/skip-until-operator/skip-unt
     TakeWhileOperatorComponent,
     SkipOperatorComponent,
     SkipLastOperatorComponent,
-    SkipUntilOperatorComponent
+    SkipUntilOperatorComponent,
+    SkipWhileOperatorComponent,
+    DistinctoperatorComponent,
+    DistinctUntilChangedOperatorComponent,
+    DistinctUntilKeyChangedOperatorComponent,
+    FilterOperatorComponent,
+    SampleOperatorComponent,
+    AuditOperatorComponent,
+    DebounceOperatorComponent,
+    MapOperatorComponent
   ],
   imports: [
     BrowserModule,
